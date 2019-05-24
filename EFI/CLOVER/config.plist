@@ -37,7 +37,6 @@
 			<string>SSDT-LPC.aml</string>
 			<string>SSDT-UIAC.aml</string>
 			<string>SSDT-PNLF.aml</string>
-			<string>SSDT-ARP.aml</string>
 		</array>
 		<key>DSDT</key>
 		<dict>
@@ -230,7 +229,7 @@
 		<key>Arguments</key>
 		<string>kext-dev-mode=1 nv_disable=1</string>
 		<key>DefaultVolume</key>
-		<string>Macintosh HD</string>
+		<string>Macintosh</string>
 		<key>Legacy</key>
 		<string>LegacyBiosDefault</string>
 		<key>Log</key>
@@ -240,9 +239,9 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>0</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<string>NO</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
